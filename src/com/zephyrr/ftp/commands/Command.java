@@ -1,6 +1,30 @@
 package com.zephyrr.ftp.commands;
 
 public abstract class Command {
+	private String code110() {
+		// TODO
+	}
+	private String code120() {
+		// TODO
+	}
+	private String code211() {
+		// TODO
+	}
+	private String code212() {
+		// TODO
+	}
+	private String code213() {
+		// TODO
+	}
+	private String code214() {
+		// TODO
+	}
+	private String code227() {
+		// TODO
+	}
+	private String code257() {
+		// TODO
+	}
 	public String getCodeMsg(int code) {
 		switch(code) {
 		case 110: return code110();	break;
@@ -13,7 +37,7 @@ public abstract class Command {
 		case 212: return code212();	break;
 		case 213: return code213();	break;
 		case 214: return code214();	break;
-		case 215: return code215();	break;
+		case 215: return "UNIX Type: L8";	break;
 		case 220: return "220 Service ready for new user.";	break;
 		case 221: return "221 Service closing control connection.\nLogged out if appropriate.";	break;
 		case 225: return "225 Data connection open; no transfer in progress.";	break;

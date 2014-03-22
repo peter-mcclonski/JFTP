@@ -1,13 +1,18 @@
 package com.zephyrr.ftp.commands;
 
+import com.zephyrr.ftp.main.Session;
+import com.zephyrr.ftp.main.FTPConnection;
+
 public class UserCommand extends Command {
-	private String username;
-	public void execute(FTPConnection c,
+	public void execute(FTPConnection conn,
 			    String[] args) {
 		if(args.length != 2) {
-			c.sendMessage("
+			conn.sendMessage(getCodeMsg(500));
 			return;
 		}
-		username = args[0];
+		Session s = conn.getSession();
+		s.resetLogin();
+		s.setUser(username);
+		conn.sendMessage(getCodeMsg(331));
 	}
 }
