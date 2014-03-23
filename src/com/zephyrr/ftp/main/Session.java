@@ -1,11 +1,21 @@
 package com.zephyrr.ftp.main;
 
+import com.zephyrr.ftp.users.User;
+import com.zephyrr.ftp.commands.Command;
+import com.zephyrr.ftp.commands.CommandList;
+import java.net.Socket;
+import java.io.IOException;
+
 public class Session implements Runnable {
 	private FTPConnection control, data;
 	private User user;
 	private CommandList last;
 	public Session(Socket sock) {
-		control = new FTPConnection(sock);
+		try {
+			control = new FTPConnection(sock, this);
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
 		data = null;
 		user = new User();
 		new Thread(this).start();
@@ -19,6 +29,7 @@ public class Session implements Runnable {
 			Command comm = CommandList.valueOf(cmdString.toUpperCase()).getCommand();
 			comm.execute(control, args);
 			last = CommandList.valueOf(cmdString.toUpperCase());
+		}
 	}
 	public CommandList getLastCommand() {
 		return last;

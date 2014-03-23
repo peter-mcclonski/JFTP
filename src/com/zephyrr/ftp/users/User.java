@@ -5,11 +5,10 @@ public class User {
 	protected PermissionSet perms;
 	public User() {
 		name = null;
-		pass = null;
 		perms = null;
 	}
 	public boolean isAuthorized() {
-		return isAuthed;
+		return perms.isAuthed();
 	}
 	public void attemptAuthorization(String pass) {
 		// TODO

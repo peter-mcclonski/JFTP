@@ -1,5 +1,7 @@
 package com.zephyrr.ftp.commands;
 
+import com.zephyrr.ftp.main.FTPConnection;
+
 public abstract class Command {
 	private String code110() {
 		// TODO

@@ -12,7 +12,7 @@ public class UserCommand extends Command {
 		}
 		Session s = conn.getSession();
 		s.resetLogin();
-		s.setUser(username);
+		s.setUsername(args[0]);
 		conn.sendMessage(getCodeMsg(331));
 	}
 }

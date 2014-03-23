@@ -9,7 +9,7 @@ public class FTP {
 	private File pubPath;
 	private int port;
 	private ServerSocket serverSock;
-	private FTPConnection control, data;
+	private Session sess;
 	public FTP(String pub) {
 		pubPath = new File(pub);
 		if(!pubPath.exists())
@@ -25,7 +25,7 @@ public class FTP {
 		try {
 			serverSock = new ServerSocket(port);
 			while(true) {
-				control = new FTPConnection(serverSock.accept());
+				sess = new Session(serverSock.accept());
 			}
 //			serverSock.close();
 		} catch(IOException e) {

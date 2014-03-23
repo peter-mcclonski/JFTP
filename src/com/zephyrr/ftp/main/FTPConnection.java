@@ -6,12 +6,14 @@ import java.io.InputStreamReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
-public class FTPConnection implements {
+public class FTPConnection {
 	private Socket sock;
+	private Session sess;
 	private BufferedReader read;
 	private DataOutputStream write;
-	public FTPConnection(Socket sock) throws IOException {
+	public FTPConnection(Socket sock, Session sess) throws IOException {
 		this.sock = sock;
+		this.sess = sess;
 		read = new BufferedReader(
 				new InputStreamReader(
 					sock.getInputStream()));
@@ -30,5 +32,9 @@ public class FTPConnection implements {
 		} catch(IOException e) {
 			e.printStackTrace();
 		}
+		return null;
+	}
+	public Session getSession() {
+		return sess;
 	}
 }

@@ -1,11 +1,13 @@
 package com.zephyrr.ftp.users;
 
+import java.io.File;
+
 public class PermissionSet {
 	private File homeDir;
 	private boolean view, read, write, pull;
 	private boolean authed;
-	public PemissionSet(String[] args) {
-		homeDir = ""; // TODO
+	public PermissionSet(String[] args) {
+		homeDir = new File(""); // TODO
 		view = true;
 		read = true;
 		pull = true;
@@ -24,5 +26,8 @@ public class PermissionSet {
 				case "pull":	view = Boolean.parseBoolean(pair[1]);	break;
 			}
 		}
+	}
+	public boolean isAuthed() {
+		return authed;
 	}
 }
