@@ -2,12 +2,10 @@ package com.zephyrr.ftp.users;
 
 public class User {
 	private String name;
-	private boolean isAuthed;
-	private PermissionSet perms;
+	protected PermissionSet perms;
 	public User() {
 		name = null;
 		pass = null;
-		isAuthed = false;
 		perms = null;
 	}
 	public boolean isAuthorized() {
