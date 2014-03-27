@@ -22,4 +22,7 @@ public class User {
 	public void hasPermission(UserAction ua) {
 		// TODO
 	}
+	public void setPermissions(PermissionSet p) {
+		perms = p;
+	}
 }
