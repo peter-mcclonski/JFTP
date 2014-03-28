@@ -11,10 +11,8 @@ public class RegisteredUser extends User {
 		return perms;
 	}
 
-	public PermissionSet isValidLogin(User other, String otherPass) {
-		if(other.getName().equals(getName()) && 
-				otherPass.equals(pass))
-			return getPermissions();
-		return null;
+	public boolean isValidLogin(User other, String otherPass) {
+		return (other.getName().equals(getName()) && 
+				otherPass.equals(pass));
 	}
 }

@@ -4,28 +4,16 @@ import java.io.File;
 
 public class PermissionSet {
 	private File homeDir;
-	private boolean view, read, write, pull;
+	private int perms;
 	private boolean authed;
 	public PermissionSet(String[] args) {
-		homeDir = new File(""); // TODO
-		view = true;
-		read = true;
-		pull = true;
-		write = false;
-		authed = true;
-		parsePerms(args);
+		homeDir = new File(args[1]); // Needs to be put in context of root path
+		if(!homeDir.exists())
+			homeDir.mkdirs();
+		perms = Integer.parseInt(args[0]);
 	}
-	private void parsePerms(String[] args) {
-		for(String s : args) {
-			String[] pair = s.split("=");
-			switch(pair[0].toLowerCase()) {
-				case "home":	homeDir = new File(pair[1]);	break;
-				case "view":	view = Boolean.parseBoolean(pair[1]);	break;
-				case "read":	view = Boolean.parseBoolean(pair[1]);	break;
-				case "write":	view = Boolean.parseBoolean(pair[1]);	break;
-				case "pull":	view = Boolean.parseBoolean(pair[1]);	break;
-			}
-		}
+	public boolean hasPermission(Permission p) {
+		return (perms & p.getInt()) != 0;
 	}
 	public boolean isAuthed() {
 		return authed;

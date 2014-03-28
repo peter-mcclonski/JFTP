@@ -10,8 +10,15 @@ public class User {
 	public boolean isAuthorized() {
 		return perms.isAuthed();
 	}
-	public void attemptAuthorization(String pass) {
-		// TODO
+	public boolean attemptAuthorization(String pass) {
+		if(AccountManager.isUser(name)) {
+			RegisteredUser ru = AccountManager.getUser(name);
+			if(ru.isValidLogin(this, pass)) {
+				perms = ru.getPermissions();
+				return true;
+			}
+		}
+		return false;
 	}
 	public String getName() {
 		return name;
@@ -19,8 +26,8 @@ public class User {
 	public void setName(String s) {
 		name = s;
 	}
-	public void hasPermission(UserAction ua) {
-		// TODO
+	public boolean hasPermission(Permission p) {
+		return perms.hasPermission(p);
 	}
 	public void setPermissions(PermissionSet p) {
 		perms = p;

@@ -5,6 +5,7 @@ import com.zephyrr.ftp.commands.Command;
 import com.zephyrr.ftp.commands.CommandList;
 import java.net.Socket;
 import java.io.IOException;
+import java.util.Arrays;
 
 public class Session implements Runnable {
 	private FTPConnection control, data;
@@ -24,10 +25,11 @@ public class Session implements Runnable {
 		control.sendMessage("220 Service ready for new user.");
 		String line;
 		while((line = control.getMessage().trim()) != null) {
+			System.out.println(line);
 			String cmdString = line.split(" ")[0];
-			String[] args = line.replaceFirst(cmdString, "").split(" ");
-			Command comm = CommandList.valueOf(cmdString.toUpperCase()).getCommand();
-			comm.execute(control, args);
+			String[] args = line.replaceFirst(cmdString, "").trim().split(" ");
+			System.out.println(Arrays.toString(args));
+			CommandList.valueOf(cmdString.toUpperCase()).getCommand().execute(control, args);
 			last = CommandList.valueOf(cmdString.toUpperCase());
 		}
 	}
@@ -36,9 +38,6 @@ public class Session implements Runnable {
 	}
 	public User getUser() {
 		return user;
-	}
-	public void setUsername(String username) {
-		user.setName(username);
 	}
 	public void resetLogin() {
 		user = new User();

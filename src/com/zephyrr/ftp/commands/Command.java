@@ -70,7 +70,7 @@ public abstract class Command {
 		case 502: return "502 Command not implemented.";
 		case 503: return "503 Bad sequence of commands.";
 		case 504: return "504 Command not implemented for that parameter.";
-		case 530: return "530 Not logged in.";
+		case 530: return "530 Bad login.";
 		case 532: return "532 Need account for storing files.";
 		case 550: return "550 Requested action not taken.\nFile unavailable.";
 		case 551: return "551 Requested action aborted: page type unknown.";
