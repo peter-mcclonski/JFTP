@@ -1,9 +1,9 @@
 package com.zephyrr.ftp.commands;
 
-import com.zephyrr.ftp.main.FTPConnection;
+import com.zephyrr.ftp.main.Session;
 
 public class StouCommand extends Command {
-	public void execute(FTPConnection ftcp, String[] args) {
+	public void execute(Session sess, String[] args) {
 		// TODO
 	}
 }

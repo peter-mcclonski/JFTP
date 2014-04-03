@@ -1,0 +1,581 @@
+Setting up Steam content in /home/Phoenix/.local/share/Steam
+Running Steam on fedora 20 64-bit
+STEAM_RUNTIME is enabled automatically
+Installing breakpad exception handler for appid(steam)/version(0_client)
+Installing breakpad exception handler for appid(steam)/version(1.0_client)
+Installing breakpad exception handler for appid(steam)/version(1.0_client)
+Installing breakpad exception handler for appid(steam)/version(1.0_client)
+ILocalize::AddFile() failed to load file "public/steambootstrapper_english.txt".
+[2014-03-29 20:35:04] Startup - updater built Feb 10 2014 16:03:16
+[2014-03-29 20:35:04] Verifying installation...
+[2014-03-29 20:35:04] Unable to read and verify install manifest /home/Phoenix/.local/share/Steam/package/steam_client_ubuntu12.installed
+[2014-03-29 20:35:04] Verification complete
+[2014-03-29 20:35:04] Downloading Update...
+[2014-03-29 20:35:04] Checking for available update...
+[2014-03-29 20:35:05] Package file tenfoot_misc_all.zip.b2edde04f992497dc6866f65bb881b84cce49c89 missing or incorrect size
+[2014-03-29 20:35:05] Package file tenfoot_dicts_all.zip.c31ed9aaeb4a023fcbc8a26a4133ef8a6e9aae29 missing or incorrect size
+[2014-03-29 20:35:05] Package file tenfoot_fonts_all.zip.7c5db178f5ebe8b1bb02aca53939040358a56342 missing or incorrect size
+[2014-03-29 20:35:05] Package file tenfoot_ambientsounds_all.zip.888b796633f8a81789aeb026bc1aa3292d04f989 missing or incorrect size
+[2014-03-29 20:35:05] Package file tenfoot_sounds_all.zip.vz.513680104410158b10b2b94d4ef23c83e17b7c63_1224523 missing or incorrect size
+[2014-03-29 20:35:05] Package file tenfoot_images_all.zip.vz.607d992ce046f3160d7679616bbd71f83f10ef4c_8008405 missing or incorrect size
+[2014-03-29 20:35:05] Package file tenfoot_all.zip.vz.7496727bd16cb26392d01675b52bb9d28bf36b25_768953 missing or incorrect size
+[2014-03-29 20:35:05] Package file resources_misc_all.zip.vz.ac4ad0df6d6c67597d1430c34579dd22579ba897_3651556 missing or incorrect size
+[2014-03-29 20:35:05] Package file resources_all.zip.vz.97a9ae956676584fcaa1a41f930f51854fd156d9_999299 missing or incorrect size
+[2014-03-29 20:35:05] Package file strings_en_all.zip.f3195add8d299f4bc56bcb7d8424fe76f111aa9d missing or incorrect size
+[2014-03-29 20:35:05] Package file strings_all.zip.vz.1f0472111aac8ad74ee84c81064fca58e9166292_1706487 missing or incorrect size
+[2014-03-29 20:35:05] Package file remoteui_all.zip.vz.f86089dd0fc3f6accc975cf2de49a27574e81bf9_143110 missing or incorrect size
+[2014-03-29 20:35:05] Package file public_all.zip.vz.abcfe550e7d4f741383f5c307c60d17f94edaab4_509314 missing or incorrect size
+[2014-03-29 20:35:05] Package file bins_ubuntu12.zip.vz.7a0100d44a808a046d97c999178172f4c2e23845_20694050 missing or incorrect size
+[2014-03-29 20:35:05] Package file bins_codecs_ubuntu12.zip.fc107f7974ed9d774bffd92b017369805ba980f5 missing or incorrect size
+[2014-03-29 20:35:05] Package file bins_misc_ubuntu12.zip.806c95f80ad407652207f6ba569cd937d96a9317 missing or incorrect size
+[2014-03-29 20:35:05] Package file webkit_ubuntu12.zip.vz.a5d6bb940c0d08dee2baac90ba874b88ccf23b36_12606760 missing or incorrect size
+[2014-03-29 20:35:05] Package file miles_ubuntu12.zip.vz.1bc54dcef69759a8e789b0f71b516aedc1ceaa47_298518 missing or incorrect size
+[2014-03-29 20:35:05] Package file sdl2_ubuntu12.zip.vz.cac2e496c604e569977fafb1c88eb58e7f523d33_272268 missing or incorrect size
+[2014-03-29 20:35:05] Package file steam_ubuntu12.zip.vz.c154456fadfec827dc2ef1bb52d934cc393075b4_878657 missing or incorrect size
+[2014-03-29 20:35:05] Package file runtime_part0_ubuntu12.zip.ac9c658f51c26037015c46ffa8251f684ed8b6eb missing or incorrect size
+[2014-03-29 20:35:05] Package file runtime_part1_ubuntu12.zip.32b52c466e5064af12fe306d862e4c74137b523d missing or incorrect size
+[2014-03-29 20:35:05] Downloading update (0 of 177,883 KB)...
+[2014-03-29 20:35:05] Downloading update (839 of 177,883 KB)...
+[2014-03-29 20:35:05] Downloading update (3,922 of 177,883 KB)...
+[2014-03-29 20:35:06] Downloading update (7,364 of 177,883 KB)...
+[2014-03-29 20:35:06] Downloading update (9,960 of 177,883 KB)...
+[2014-03-29 20:35:06] Downloading update (12,739 of 177,883 KB)...
+[2014-03-29 20:35:06] Downloading update (14,772 of 177,883 KB)...
+[2014-03-29 20:35:07] Downloading update (17,325 of 177,883 KB)...
+[2014-03-29 20:35:07] Downloading update (20,088 of 177,883 KB)...
+[2014-03-29 20:35:07] Downloading update (22,920 of 177,883 KB)...
+[2014-03-29 20:35:08] Downloading update (25,568 of 177,883 KB)...
+[2014-03-29 20:35:08] Downloading update (28,183 of 177,883 KB)...
+[2014-03-29 20:35:08] Downloading update (30,653 of 177,883 KB)...
+[2014-03-29 20:35:08] Downloading update (32,830 of 177,883 KB)...
+[2014-03-29 20:35:09] Downloading update (34,809 of 177,883 KB)...
+[2014-03-29 20:35:09] Downloading update (36,517 of 177,883 KB)...
+[2014-03-29 20:35:09] Downloading update (38,364 of 177,883 KB)...
+[2014-03-29 20:35:09] Downloading update (40,198 of 177,883 KB)...
+[2014-03-29 20:35:10] Downloading update (42,070 of 177,883 KB)...
+[2014-03-29 20:35:10] Downloading update (44,084 of 177,883 KB)...
+[2014-03-29 20:35:10] Downloading update (46,021 of 177,883 KB)...
+[2014-03-29 20:35:10] Downloading update (48,083 of 177,883 KB)...
+[2014-03-29 20:35:11] Downloading update (49,919 of 177,883 KB)...
+[2014-03-29 20:35:11] Downloading update (51,451 of 177,883 KB)...
+[2014-03-29 20:35:11] Downloading update (52,828 of 177,883 KB)...
+[2014-03-29 20:35:11] Downloading update (54,096 of 177,883 KB)...
+[2014-03-29 20:35:12] Downloading update (55,354 of 177,883 KB)...
+[2014-03-29 20:35:12] Downloading update (56,610 of 177,883 KB)...
+[2014-03-29 20:35:12] Downloading update (57,888 of 177,883 KB)...
+[2014-03-29 20:35:12] Downloading update (59,194 of 177,883 KB)...
+[2014-03-29 20:35:13] Downloading update (60,502 of 177,883 KB)...
+[2014-03-29 20:35:13] Downloading update (61,623 of 177,883 KB)...
+[2014-03-29 20:35:13] Downloading update (62,896 of 177,883 KB)...
+[2014-03-29 20:35:13] Downloading update (64,041 of 177,883 KB)...
+[2014-03-29 20:35:14] Downloading update (65,252 of 177,883 KB)...
+[2014-03-29 20:35:14] Downloading update (66,401 of 177,883 KB)...
+[2014-03-29 20:35:14] Downloading update (67,721 of 177,883 KB)...
+[2014-03-29 20:35:14] Downloading update (68,941 of 177,883 KB)...
+[2014-03-29 20:35:15] Downloading update (70,145 of 177,883 KB)...
+[2014-03-29 20:35:15] Downloading update (71,774 of 177,883 KB)...
+[2014-03-29 20:35:15] Downloading update (73,025 of 177,883 KB)...
+[2014-03-29 20:35:16] Downloading update (74,099 of 177,883 KB)...
+[2014-03-29 20:35:16] Downloading update (75,029 of 177,883 KB)...
+[2014-03-29 20:35:16] Downloading update (76,110 of 177,883 KB)...
+[2014-03-29 20:35:16] Downloading update (77,055 of 177,883 KB)...
+[2014-03-29 20:35:17] Downloading update (78,014 of 177,883 KB)...
+[2014-03-29 20:35:17] Downloading update (79,046 of 177,883 KB)...
+[2014-03-29 20:35:17] Downloading update (80,073 of 177,883 KB)...
+[2014-03-29 20:35:17] Downloading update (81,095 of 177,883 KB)...
+[2014-03-29 20:35:18] Downloading update (82,111 of 177,883 KB)...
+[2014-03-29 20:35:18] Downloading update (83,126 of 177,883 KB)...
+[2014-03-29 20:35:18] Downloading update (84,133 of 177,883 KB)...
+[2014-03-29 20:35:18] Downloading update (84,987 of 177,883 KB)...
+[2014-03-29 20:35:19] Downloading update (86,002 of 177,883 KB)...
+[2014-03-29 20:35:19] Downloading update (87,013 of 177,883 KB)...
+[2014-03-29 20:35:19] Downloading update (88,018 of 177,883 KB)...
+[2014-03-29 20:35:19] Downloading update (89,020 of 177,883 KB)...
+[2014-03-29 20:35:20] Downloading update (90,025 of 177,883 KB)...
+[2014-03-29 20:35:20] Downloading update (90,939 of 177,883 KB)...
+[2014-03-29 20:35:20] Downloading update (91,837 of 177,883 KB)...
+[2014-03-29 20:35:20] Downloading update (92,577 of 177,883 KB)...
+[2014-03-29 20:35:21] Downloading update (93,316 of 177,883 KB)...
+[2014-03-29 20:35:21] Downloading update (94,039 of 177,883 KB)...
+[2014-03-29 20:35:21] Downloading update (94,784 of 177,883 KB)...
+[2014-03-29 20:35:21] Downloading update (95,528 of 177,883 KB)...
+[2014-03-29 20:35:22] Downloading update (96,269 of 177,883 KB)...
+[2014-03-29 20:35:22] Downloading update (97,008 of 177,883 KB)...
+[2014-03-29 20:35:22] Downloading update (97,744 of 177,883 KB)...
+[2014-03-29 20:35:22] Downloading update (98,362 of 177,883 KB)...
+[2014-03-29 20:35:23] Downloading update (99,290 of 177,883 KB)...
+[2014-03-29 20:35:23] Downloading update (100,067 of 177,883 KB)...
+[2014-03-29 20:35:23] Downloading update (100,732 of 177,883 KB)...
+[2014-03-29 20:35:23] Downloading update (101,472 of 177,Installing breakpad exception handler for appid(steam)/version(1.0_client)
+883 KB)...
+[2014-03-29 20:35:24] Downloading update (102,210 of 177,883 KB)...
+[2014-03-29 20:35:24] Downloading update (102,945 of 177,883 KB)...
+[2014-03-29 20:35:24] Downloading update (103,681 of 177,883 KB)...
+[2014-03-29 20:35:24] Downloading update (104,424 of 177,883 KB)...
+[2014-03-29 20:35:25] Downloading update (105,168 of 177,883 KB)...
+[2014-03-29 20:35:25] Downloading update (105,909 of 177,883 KB)...
+[2014-03-29 20:35:25] Downloading update (106,658 of 177,883 KB)...
+[2014-03-29 20:35:25] Downloading update (107,398 of 177,883 KB)...
+[2014-03-29 20:35:26] Downloading update (108,074 of 177,883 KB)...
+[2014-03-29 20:35:26] Downloading update (108,837 of 177,883 KB)...
+[2014-03-29 20:35:26] Downloading update (109,588 of 177,883 KB)...
+[2014-03-29 20:35:26] Downloading update (110,336 of 177,883 KB)...
+[2014-03-29 20:35:27] Downloading update (111,078 of 177,883 KB)...
+[2014-03-29 20:35:27] Downloading update (111,818 of 177,883 KB)...
+[2014-03-29 20:35:27] Downloading update (112,559 of 177,883 KB)...
+[2014-03-29 20:35:27] Downloading update (113,306 of 177,883 KB)...
+[2014-03-29 20:35:28] Downloading update (114,049 of 177,883 KB)...
+[2014-03-29 20:35:28] Downloading update (114,698 of 177,883 KB)...
+[2014-03-29 20:35:28] Downloading update (115,442 of 177,883 KB)...
+[2014-03-29 20:35:28] Downloading update (116,186 of 177,883 KB)...
+[2014-03-29 20:35:29] Downloading update (116,923 of 177,883 KB)...
+[2014-03-29 20:35:29] Downloading update (117,672 of 177,883 KB)...
+[2014-03-29 20:35:29] Downloading update (118,424 of 177,883 KB)...
+[2014-03-29 20:35:29] Downloading update (119,164 of 177,883 KB)...
+[2014-03-29 20:35:30] Downloading update (119,907 of 177,883 KB)...
+[2014-03-29 20:35:30] Downloading update (120,647 of 177,883 KB)...
+[2014-03-29 20:35:30] Downloading update (121,349 of 177,883 KB)...
+[2014-03-29 20:35:30] Downloading update (122,094 of 177,883 KB)...
+[2014-03-29 20:35:31] Downloading update (122,852 of 177,883 KB)...
+[2014-03-29 20:35:31] Downloading update (123,609 of 177,883 KB)...
+[2014-03-29 20:35:31] Downloading update (124,362 of 177,883 KB)...
+[2014-03-29 20:35:31] Downloading update (125,119 of 177,883 KB)...
+[2014-03-29 20:35:32] Downloading update (126,060 of 177,883 KB)...
+[2014-03-29 20:35:32] Downloading update (126,975 of 177,883 KB)...
+[2014-03-29 20:35:32] Downloading update (127,826 of 177,883 KB)...
+[2014-03-29 20:35:32] Downloading update (128,616 of 177,883 KB)...
+[2014-03-29 20:35:33] Downloading update (129,283 of 177,883 KB)...
+[2014-03-29 20:35:33] Downloading update (130,146 of 177,883 KB)...
+[2014-03-29 20:35:33] Downloading update (130,892 of 177,883 KB)...
+[2014-03-29 20:35:33] Downloading update (131,416 of 177,883 KB)...
+[2014-03-29 20:35:34] Downloading update (131,926 of 177,883 KB)...
+[2014-03-29 20:35:34] Downloading update (132,422 of 177,883 KB)...
+[2014-03-29 20:35:34] Downloading update (132,930 of 177,883 KB)...
+[2014-03-29 20:35:34] Downloading update (133,332 of 177,883 KB)...
+[2014-03-29 20:35:35] Downloading update (133,833 of 177,883 KB)...
+[2014-03-29 20:35:35] Downloading update (134,332 of 177,883 KB)...
+[2014-03-29 20:35:35] Downloading update (134,675 of 177,883 KB)...
+[2014-03-29 20:35:35] Downloading update (135,100 of 177,883 KB)...
+[2014-03-29 20:35:36] Downloading update (135,353 of 177,883 KB)...
+[2014-03-29 20:35:36] Downloading update (135,796 of 177,883 KB)...
+[2014-03-29 20:35:36] Downloading update (136,169 of 177,883 KB)...
+[2014-03-29 20:35:36] Downloading update (136,567 of 177,883 KB)...
+[2014-03-29 20:35:37] Downloading update (136,898 of 177,883 KB)...
+[2014-03-29 20:35:37] Downloading update (137,264 of 177,883 KB)...
+[2014-03-29 20:35:37] Downloading update (137,665 of 177,883 KB)...
+[2014-03-29 20:35:37] Downloading update (138,002 of 177,883 KB)...
+[2014-03-29 20:35:38] Downloading update (138,373 of 177,883 KB)...
+[2014-03-29 20:35:38] Downloading update (138,712 of 177,883 KB)...
+[2014-03-29 20:35:38] Downloading update (139,054 of 177,883 KB)...
+[2014-03-29 20:35:38] Downloading update (139,320 of 177,883 KB)...
+[2014-03-29 20:35:39] Downloading update (139,711 of 177,883 KB)...
+[2014-03-29 20:35:39] Downloading update (140,100 of 177,883 KB)...
+[2014-03-29 20:35:39] Downloading update (140,301 of 177,883 KB)...
+[2014-03-29 20:35:39] Downloading update (140,792 of 177,883 KB)...
+[2014-03-29 20:35:40] Downloading update (141,283 of 177,883 KB)...
+[2014-03-29 20:35:40] Downloading update (141,677 of 177,883 KB)...
+[2014-03-29 20:35:40] Downloading update (142,039 of 177,883 KB)...
+[2014-03-29 20:35:40] Downloading update (142,387 of 177,883 KB)...
+[2014-03-29 20:35:41] Downloading update (142,681 of 177,883 KB)...
+[2014-03-29 20:35:41] Downloading update (143,031 of 177,883 KB)...
+[2014-03-29 20:35:41] Downloading update (143,298 of 177,883 KB)...
+[2014-03-29 20:35:41] Downloading update (143,710 of 177,883 KB)...
+[2014-03-29 20:35:42] Downloading update (144,178 of 177,883 KB)...
+[2014-03-29 20:35:42] Downloading update (144,676 of 177,883 KB)...
+[2014-03-29 20:35:42] Downloading update (145,175 of 177,883 KB)...
+[2014-03-29 20:35:42] Downloading update (145,677 of 177,883 KB)...
+[2014-03-29 20:35:43] Downloading update (146,180 of 177,883 KB)...
+[2014-03-29 20:35:43] Downloading update (146,678 of 177,883 KB)...
+[2014-03-29 20:35:43] Downloading update (147,174 of 177,883 KB)...
+[2014-03-29 20:35:43] Downloading update (147,610 of 177,883 KB)...
+[2014-03-29 20:35:44] Downloading update (148,100 of 177,883 KB)...
+[2014-03-29 20:35:44] Downloading update (148,599 of 177,883 KB)...
+[2014-03-29 20:35:44] Downloading update (149,097 of 177,883 KB)...
+[2014-03-29 20:35:44] Downloading update (149,591 of 177,883 KB)...
+[2014-03-29 20:35:45] Downloading update (150,085 of 177,883 KB)...
+[2014-03-29 20:35:45] Downloading update (150,583 of 177,883 KB)...
+[2014-03-29 20:35:45] Downloading update (151,078 of 177,883 KB)...
+[2014-03-29 20:35:45] Downloading update (151,532 of 177,883 KB)...
+[2014-03-29 20:35:46] Downloading update (152,031 of 177,883 KB)...
+[2014-03-29 20:35:46] Downloading update (152,528 of 177,883 KB)...
+[2014-03-29 20:35:46] Downloading update (153,016 of 177,883 KB)...
+[2014-03-29 20:35:46] Downloading update (153,511 of 177,883 KB)...
+[2014-03-29 20:35:47] Downloading update (154,001 of 177,883 KB)...
+[2014-03-29 20:35:47] Downloading update (154,501 of 177,883 KB)...
+[2014-03-29 20:35:47] Downloading update (154,997 of 177,883 KB)...
+[2014-03-29 20:35:47] Downloading update (155,496 of 177,883 KB)...
+[2014-03-29 20:35:48] Downloading update (155,997 of 177,883 KB)...
+[2014-03-29 20:35:48] Downloading update (156,498 of 177,883 KB)...
+[2014-03-29 20:35:48] Downloading update (157,000 of 177,883 KB)...
+[2014-03-29 20:35:48] Downloading update (157,503 of 177,883 KB)...
+[2014-03-29 20:35:49] Downloading update (158,000 of 177,883 KB)...
+[2014-03-29 20:35:49] Downloading update (158,491 of 177,883 KB)...
+[2014-03-29 20:35:49] Downloading update (158,908 of 177,883 KB)...
+[2014-03-29 20:35:49] Downloading update (159,401 of 177,883 KB)...
+[2014-03-29 20:35:50] Downloading update (159,890 of 177,883 KB)...
+[2014-03-29 20:35:50] Downloading update (160,386 of 177,883 KB)...
+[2014-03-29 20:35:50] Downloading update (160,882 of 177,883 KB)...
+[2014-03-29 20:35:50] Downloading update (161,383 of 177,883 KB)...
+[2014-03-29 20:35:51] Downloading update (161,875 of 177,883 KB)...
+[2014-03-29 20:35:51] Downloading update (162,316 of 177,883 KB)...
+[2014-03-29 20:35:51] Downloading update (162,807 of 177,883 KB)...
+[2014-03-29 20:35:51] Downloading update (163,304 of 177,883 KB)...
+[2014-03-29 20:35:52] Downloading update (163,806 of 177,883 KB)...
+[2014-03-29 20:35:52] Downloading update (164,272 of 177,883 KB)...
+[2014-03-29 20:35:52] Downloading update (164,774 of 177,883 KB)...
+[2014-03-29 20:35:52] Downloading update (165,276 of 177,883 KB)...
+[2014-03-29 20:35:53] Downloading update (165,771 of 177,883 KB)...
+[2014-03-29 20:35:53] Downloading update (166,265 of 177,883 KB)...
+[2014-03-29 20:35:53] Downloading update (166,755 of 177,883 KB)...
+[2014-03-29 20:35:53] Downloading update (167,253 of 177,883 KB)...
+[2014-03-29 20:35:54] Downloading update (167,745 of 177,883 KB)...
+[2014-03-29 20:35:54] Downloading update (168,243 of 177,883 KB)...
+[2014-03-29 20:35:54] Downloading update (168,737 of 177,883 KB)...
+[2014-03-29 20:35:55] Downloading update (169,206 of 177,883 KB)...
+[2014-03-29 20:35:55] Downloading update (169,463 of 177,883 KB)...
+[2014-03-29 20:35:55] Downloading update (169,717 of 177,883 KB)...
+[2014-03-29 20:35:55] Downloading update (169,973 of 177,883 KB)...
+[2014-03-29 20:35:56] Downloading update (170,232 of 177,883 KB)...
+[2014-03-29 20:35:56] Downloading update (170,489 of 177,883 KB)...
+[2014-03-29 20:35:56] Downloading update (170,739 of 177,883 KB)...
+[2014-03-29 20:35:56] Downloading update (170,998 of 177,883 KB)...
+[2014-03-29 20:35:57] Downloading update (171,254 of 177,883 KB)...
+[2014-03-29 20:35:57] Downloading update (171,508 of 177,883 KB)...
+[2014-03-29 20:35:57] Downloading update (171,764 of 177,883 KB)...
+[2014-03-29 20:35:57] Downloading update (172,021 of 177,883 KB)...
+[2014-03-29 20:35:58] Downloading update (172,277 of 177,883 KB)...
+[2014-03-29 20:35:58] Downloading update (172,531 of 177,883 KB)...
+[2014-03-29 20:35:58] Downloading update (172,790 of 177,883 KB)...
+[2014-03-29 20:35:58] Downloading update (173,047 of 177,883 KB)...
+[2014-03-29 20:35:59] Downloading update (173,302 of 177,883 KB)...
+[2014-03-29 20:35:59] Downloading update (173,557 of 177,883 KB)...
+[2014-03-29 20:35:59] Downloading update (173,813 of 177,883 KB)...
+[2014-03-29 20:35:59] Downloading update (174,069 of 177,883 KB)...
+[2014-03-29 20:36:00] Downloading update (174,326 of 177,883 KB)...
+[2014-03-29 20:36:00] Downloading update (174,583 of 177,883 KB)...
+[2014-03-29 20:36:00] Downloading update (174,794 of 177,883 KB)...
+[2014-03-29 20:36:00] Downloading update (175,033 of 177,883 KB)...
+[2014-03-29 20:36:01] Downloading update (175,288 of 177,883 KB)...
+[2014-03-29 20:36:01] Downloading update (175,537 of 177,883 KB)...
+[2014-03-29 20:36:01] Downloading update (175,794 of 177,883 KB)...
+[2014-03-29 20:36:01] Downloading update (176,050 of 177,883 KB)...
+[2014-03-29 20:36:02] Downloading update (176,300 of 177,883 KB)...
+[2014-03-29 20:36:02] Downloading update (176,559 of 177,883 KB)...
+[2014-03-29 20:36:02] Downloading update (176,817 of 177,883 KB)...
+[2014-03-29 20:36:02] Downloading update (177,057 of 177,883 KB)...
+[2014-03-29 20:36:03] Downloading update (177,347 of 177,883 KB)...
+[2014-03-29 20:36:03] Downloading update (177,596 of 177,883 KB)...
+[2014-03-29 20:36:03] Downloading update (177,853 of 177,883 KB)...
+[2014-03-29 20:36:04] Downloading update (177,883 of 177,883 KB)...
+[2014-03-29 20:36:04] Download Complete.
+[2014-03-29 20:36:04] uninstalled manifest found in /home/Phoenix/.local/share/Steam/package/steam_client_ubuntu12 (1).
+[2014-03-29 20:36:04] Extracting package...
+[2014-03-29 20:36:14] Installing update...
+[2014-03-29 20:36:14] Cleaning up...
+[2014-03-29 20:36:14] Update complete, launching...
+[2014-03-29 20:36:14] Shutdown
+Restarting Steam by request...
+Running Steam on fedora 20 64-bit
+STEAM_RUNTIME has been set by the user to: /home/Phoenix/.local/share/Steam/ubuntu12_32/steam-runtime
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+
+(steam:27817): Gtk-WARNING **: Unable to locate theme engine in module_path: "adwaita",
+
+(steam:27817): Gtk-WARNING **: Unable to locate theme engine in module_path: "adwaita",
+/usr/share/themes/Adwaita/gtk-2.0/gtkrc:1137: error: unexpected identifier `direction', expected character `}'
+Gtk-Message: Failed to load module "pk-gtk-module"
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 70: non-double matrix element
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 70: non-double matrix element
+Fontconfig warning: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 78: saw unknown, expected number
+Fontconfig warning: "/etc/fonts/conf.d/65-0-lohit-bengali.conf", line 32: unknown element "langset"
+[0329/203623:WARNING:proxy_service.cc(958)] PAC support disabled because there is no system implementation
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+
+** (steam:27817): WARNING **: Unknown device type 14
+
+** (steam:27817): WARNING **: Could not create object for /org/freedesktop/NetworkManager/Devices/0: unknown object type
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Process 27817 created /Phoenix-ValveIPCSharedObjects5
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Generating new string page texture 12: 48x256, total string texture memory is 49.15 KB
+Generating new string page texture 13: 256x256, total string texture memory is 311.30 KB
+Generating new string page texture 14: 128x256, total string texture memory is 442.37 KB
+Generating new string page texture 15: 384x256, total string texture memory is 835.58 KB
+Generating new string page texture 21: 64x256, total string texture memory is 901.12 KB
+Generating new string page texture 22: 8x256, total string texture memory is 909.31 KB
+Generating new string page texture 23: 16x256, total string texture memory is 925.70 KB
+Generating new string page texture 24: 24x256, total string texture memory is 950.27 KB
+Generating new string page texture 25: 32x256, total string texture memory is 983.04 KB
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Generating new string page texture 37: 256x256, total string texture memory is 1.25 MB
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Adding licenses for the following package(s): 0, 515, 636, 7368, 7566, 27968, 29128, 36144
+roaming config store loaded successfully - 1310 bytes.
+migrating temporary roaming config store
+ExecCommandLine: "/home/Phoenix/.local/share/Steam/ubuntu12_32/steam"
+System startup time: 123.96 seconds
+OnFocusWindowChanged to window type: k_EWindowTypeSteamDesktop, 0
+Running Steam on fedora 20 64-bit
+STEAM_RUNTIME has been set by the user to: /home/Phoenix/.local/share/Steam/ubuntu12_32/steam-runtime
+Generating new string page texture 98: 128x256, total string texture memory is 131.07 KB
+Generating new string page texture 99: 128x256, total string texture memory is 1.38 MB
+ExecCommandLine: "/home/Phoenix/.steam/root/ubuntu12_32/steam steam://open/driverhelperready"
+ExecSteamURL: "steam://open/driverhelperready"
+CAPIJobRequestUserStats - Server response failed 2
+[0329/203835:ERROR:reference_audio_renderer.cc(46)] Not implemented reached in virtual void media::ReferenceAudioRenderer::OnCreated(media::AudioOutputController*)
+[0329/203835:ERROR:reference_audio_renderer.cc(50)] Not implemented reached in virtual void media::ReferenceAudioRenderer::OnPlaying(media::AudioOutputController*)
+[0329/203835:ERROR:alsa_output.cc(684)] Failed querying delay: Input/output error
+[0329/203845:ERROR:reference_audio_renderer.cc(54)] Not implemented reached in virtual void media::ReferenceAudioRenderer::OnPaused(media::AudioOutputController*)
+Generating new string page texture 114: 512x256, total string texture memory is 1.90 MB
+Generating new string page texture 115: 256x256, total string texture memory is 2.16 MB
+Generating new string page texture 116: 128x256, total string texture memory is 2.29 MB
+Generating new string page texture 118: 2048x256, total string texture memory is 4.39 MB
+Generating new string page texture 120: 512x256, total string texture memory is 4.92 MB
+Generating new string page texture 123: 128x256, total string texture memory is 5.05 MB
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Generating new string page texture 130: 64x256, total string texture memory is 5.11 MB
+Generating new string page texture 133: 256x256, total string texture memory is 5.37 MB
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+saving roaming config store to 'sharedconfig.vdf'
+roaming config store 2 saved successfully
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+OnFocusWindowChanged to window type: k_EWindowTypeNonSteamDesktop, 0
+OnFocusWindowChanged to window type: k_EWindowTypeSteamDesktop, 0
+OnFocusWindowChanged to window type: k_EWindowTypeNonSteamDesktop, 0
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+OnFocusWindowChanged to window type: k_EWindowTypeSteamDesktop, 0
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Game update: AppID 236090 "Dust: An Elysian Tail", ProcID 28436, IP 0.0.0.0:0
+ERROR: ld.so: object '/home/Phoenix/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded: ignored.
+ERROR: ld.so: object '/home/Phoenix/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded: ignored.
+ERROR: ld.so: object '/home/Phoenix/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded: ignored.
+CGameStreamThread: Added instance ID 28436 for appid 236090
+CGameStreamThread: Set render instance ID 28436 for appid 236090
+CGameStreamThread: Added instance ID 28437 for appid 236090
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+ERROR: ld.so: object '/home/Phoenix/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded: ignored.
+ERROR: ld.so: object '/home/Phoenix/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded: ignored.
+ERROR: ld.so: object '/home/Phoenix/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded: ignored.
+CGameStreamThread: Added instance ID 28438 for appid 236090
+CGameStreamThread: Added instance ID 28439 for appid 236090
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+CGameStreamThread: Added instance ID 28440 for appid 236090
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+CGameStreamThread: Added instance ID 28441 for appid 236090
+Setting breakpad minidump AppID = 236090
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198027049823 [API loaded no]
+SUCCESS: SteamAPI_Init()
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+
+(steam:27817): LIBDBUSMENU-GLIB-WARNING **: Trying to remove a child that doesn't believe we're it's parent.
+OnFocusWindowChanged to window type: k_EWindowTypeNonSteamDesktop, 0
+EXT_swap_control_tear unsupported. Fall back to standard VSync.
+EXT_swap_control_tear unsupported. Fall back to standard VSync.
+EXT_swap_control_tear unsupported. Fall back to standard VSync.
+CGameStreamThread: Set render instance ID 28441 for appid 236090
+Installing breakpad exception handler for appid(gameoverlayui)/version(20140225134510_client)
+Installing breakpad exception handler for appid(gameoverlayui)/version(1.0_client)
+Installing breakpad exception handler for appid(gameoverlayui)/version(1.0_client)
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 70: non-double matrix element
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 70: non-double matrix element
+Fontconfig warning: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 78: saw unknown, expected number
+
+(gameoverlayui:28457): Gtk-WARNING **: Unable to locate theme engine in module_path: "adwaita",
+
+(gameoverlayui:28457): Gtk-WARNING **: Unable to locate theme engine in module_path: "adwaita",
+/usr/share/themes/Adwaita/gtk-2.0/gtkrc:1137: error: unexpected identifier `direction', expected character `}'
+Gtk-Message: Failed to load module "pk-gtk-module"
+[0329/205615:WARNING:proxy_service.cc(958)] PAC support disabled because there is no system implementation
+Fontconfig warning: "/etc/fonts/conf.d/65-0-lohit-bengali.conf", line 32: unknown element "langset"
+Installing breakpad exception handler for appid(gameoverlayui)/version(1.0_client)
+Starting Theora player... Done!
+OnFocusWindowChanged to window type: k_EWindowTypeGame, 236090
+Starting Theora player... Done!
+Starting Theora player... Done!
+Starting Theora player... Done!
+Signaled Theora player to stop, waiting... Done!
+OnFocusWindowChanged to window type: k_EWindowTypeNonSteamDesktop, 0
+OnFocusWindowChanged to window type: k_EWindowTypeSteamDesktop, 0
+Installing breakpad exception handler for appid(steam)/version(1393366296_client)
+OnFocusWindowChanged to window type: k_EWindowTypeGame, 236090
+Stacktrace:
+
+  at (wrapper managed-to-native) object.wrapper_native_0x7f1dfd4485a0 (int,int,int,int,int,int,int,int,OpenTK.Graphics.OpenGL.ClearBufferMask,OpenTK.Graphics.OpenGL.BlitFramebufferFilter) <0xffffffff>
+  at (wrapper delegate-invoke) <Module>.invoke_void__this___int_int_int_int_int_int_int_int_ClearBufferMask_BlitFramebufferFilter (int,int,int,int,int,int,int,int,OpenTK.Graphics.OpenGL.ClearBufferMask,OpenTK.Graphics.OpenGL.BlitFramebufferFilter) <0xffffffff>
+  at OpenTK.Graphics.OpenGL.GL.BlitFramebuffer (int,int,int,int,int,int,int,int,OpenTK.Graphics.OpenGL.ClearBufferMask,OpenTK.Graphics.OpenGL.BlitFramebufferFilter) <0x00076>
+  at Microsoft.Xna.Framework.SDL2_GameWindow.INTERNAL_SwapBuffers () <0x000b7>
+  at Microsoft.Xna.Framework.SDL2_GamePlatform.Present () <0x0004b>
+  at Microsoft.Xna.Framework.Game.EndDraw () <0x00017>
+  at Microsoft.Xna.Framework.Game.DoDraw (Microsoft.Xna.Framework.GameTime) <0x00061>
+  at Microsoft.Xna.Framework.Game.Tick () <0x0050f>
+  at Microsoft.Xna.Framework.SDL2_GameWindow.INTERNAL_RunLoop () <0x003f7>
+  at Microsoft.Xna.Framework.SDL2_GamePlatform.RunLoop () <0x0001b>
+  at Microsoft.Xna.Framework.Game.Run (Microsoft.Xna.Framework.GameRunBehavior) <0x000e4>
+  at Microsoft.Xna.Framework.Game.Run () <0x00027>
+  at Dust.Program.Main (string[]) <0x00167>
+  at (wrapper runtime-invoke) <Module>.runtime_invoke_void_object (object,intptr,intptr,intptr) <0xffffffff>
+
+Native stacktrace:
+
+	/home/Phoenix/.local/share/Steam/SteamApps/common/Dust An Elysian Tail/lib64/libmono-2.0.so.1(+0xab388) [0x7f1dfeb79388]
+	/home/Phoenix/.local/share/Steam/SteamApps/common/Dust An Elysian Tail/lib64/libmono-2.0.so.1(+0x10158f) [0x7f1dfebcf58f]
+	/home/Phoenix/.local/share/Steam/SteamApps/common/Dust An Elysian Tail/lib64/libmono-2.0.so.1(+0x2f65b) [0x7f1dfeafd65b]
+	/lib64/libpthread.so.0(+0xf750) [0x7f1dfe1ad750]
+	/usr/lib64/dri/i965_dri.so(+0x2bc10f) [0x7f1dea97010f]
+	/usr/lib64/dri/i965_dri.so(+0x2c1918) [0x7f1dea975918]
+	/usr/lib64/dri/i965_dri.so(+0x2aff2a) [0x7f1dea963f2a]
+	/usr/lib64/dri/i965_dri.so(+0x8a2e3) [0x7f1dea73e2e3]
+	[0x408ff6c7]
+
+Debug info from gdb:
+
+ERROR: ld.so: object '/home/Phoenix/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded: ignored.
+/usr/bin/gdb: symbol lookup error: /lib64/libncurses.so.5: undefined symbol: _nc_putchar
+
+=================================================================
+Got a SIGSEGV while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+STATS STORED SUCCESSFUL
+STATS STORED SUCCESSFUL
+STATS STORED SUCCESSFUL
+STATS STORED SUCCESSFUL
+OnFocusWindowChanged to window type: k_EWindowTypeSteamDesktop, 0
+OnFocusWindowChanged to window type: k_EWindowTypeGame, 236090
+/home/Phoenix/.local/share/Steam/SteamApps/common/Dust An Elysian Tail/./DustAET: line 23: 28441 Killed                  ./DustAET.bin.x86_64
+OnFocusWindowChanged to window type: k_EWindowTypeSteamDesktop, 0
+Game removed: AppID 236090 "Dust: An Elysian Tail", ProcID 28441 
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Attempting to use a Windows only path root on non-Windows platform for game 236090
+Uploading dump (out-of-process) [proxy '']
+/tmp/dumps/crash_20140329203623_1.dmp
+/home/Phoenix/.local/share/Steam/steam.sh: line 755: 27817 Segmentation fault      (core dumped) $STEAM_DEBUGGER "$STEAMROOT/$PLATFORM/$STEAMEXE" "$@"
+Finished uploading minidump (out-of-process): success = yes
+response: CrashID=bp-f22623b7-515e-4e67-ac8c-fa2c52140329

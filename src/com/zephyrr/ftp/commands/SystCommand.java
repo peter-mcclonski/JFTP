@@ -1,9 +1,9 @@
 package com.zephyrr.ftp.commands;
 
-import com.zephyrr.ftp.main.FTPConnection;
+import com.zephyrr.ftp.main.Session;
 
 public class SystCommand extends Command {
-	public void execute(FTPConnection ftcp, String[] args) {
-		ftcp.sendMessage(getCodeMsg(215));
+	public void execute(Session sess, String[] args) {
+		sess.getControl().sendMessage(getCodeMsg(215));
 	}
 }
