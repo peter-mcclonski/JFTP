@@ -32,4 +32,10 @@ public class User {
 	public void setPermissions(PermissionSet p) {
 		perms = p;
 	}
+	public File getHomeDir() {
+		return perms.getHome();
+	}
+	public boolean equals(Object other) {
+		return other instanceof User && ((User)other).getName().equals(getName());
+	}
 }

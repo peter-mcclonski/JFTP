@@ -1,12 +1,20 @@
 package com.zephyrr.ftp.io;
 
 public class ReadResult {
-	private String data;
+	private byte[] data;
 	private boolean locked, done;
+	private int tLength;
 	public ReadResult() {
-		data = "";
+		tLength = 0;
+		data = new byte[tLength];
 		locked = false;
 		done = false;
+	}
+	public int getTrueLength() {
+		return tLength;
+	}
+	public void setTrueLength(int i) {
+		tLength = i;
 	}
 	public void setLocked(boolean b) {
 		locked = b;
@@ -14,10 +22,10 @@ public class ReadResult {
 	public void setFinished(boolean b) {
 		done = b;
 	}
-	public void addToResult(String s) {
-		data += s;
+	public void setData(byte[] d) {
+		data = d;
 	}
 	public boolean isLocked() { return locked; }
 	public boolean isFinished() { return done; }
-	public String getData() { return data; }
+	public byte[] getData() { return data; }
 }

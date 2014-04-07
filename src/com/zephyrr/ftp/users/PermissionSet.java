@@ -1,13 +1,14 @@
 package com.zephyrr.ftp.users;
 
 import java.io.File;
+import com.zephyrr.ftp.io.FileManager;
 
 public class PermissionSet {
 	private File homeDir;
 	private int perms;
 	private boolean authed;
 	public PermissionSet(String[] args) {
-		homeDir = new File(args[1]); // Needs to be put in context of root path
+		homeDir = FileManager.getFile(args[1]);
 		if(!homeDir.exists())
 			homeDir.mkdirs();
 		perms = Integer.parseInt(args[0]);
@@ -17,5 +18,8 @@ public class PermissionSet {
 	}
 	public boolean isAuthed() {
 		return authed;
+	}
+	public File getHome() {
+		return homeDir();
 	}
 }

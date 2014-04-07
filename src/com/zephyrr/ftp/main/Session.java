@@ -14,12 +14,14 @@ public class Session implements Runnable {
 	private boolean active;
 	private CommandList last;
 	private String dir;
+	private TransmissionType type;
 	public Session(Socket sock) {
 		try {
 			control = new FTPConnection(sock, this);
 		} catch(IOException e) {
 			e.printStackTrace();
 		}
+		type = TransmissionType.ASCII;
 		dir = "/";
 		active = true;
 		data = null;
@@ -57,6 +59,7 @@ public class Session implements Runnable {
 		data = ftpc;
 	}
 	public ServerSocket enterPassive() {
+		closeDataConnection();
 		final ServerSocket ss;
 		final Session obj = this;
 		try {
@@ -77,16 +80,33 @@ public class Session implements Runnable {
 		}
 		return ss;
 	}
+	public void closeDataConnection() {
+		if(data != null)
+			data.close();
+		data = null;
+	}
 	public void resetLogin() {
 		user = new User();
 	}
 	public FTPConnection getControl() {
 		return control;
 	}
+	public FTPConnection getData() {
+		return data;
+	}
 	public void setActive(boolean b) {
 		active = b;
 	}
 	public String getWorkingDirectory() {
 		return dir;
+	}
+	public void setWorkingDirectory(String s) {
+		dir = s;
+	}
+	public TransmissionType getType() {
+		return type;
+	}
+	public void setType(TransmissionType t) {
+		type = t;
 	}
 }
