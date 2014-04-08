@@ -19,7 +19,7 @@ public enum CommandList {
 	STOR(new StorCommand()),
 	STOU(new StouCommand()), 
 	RETR(new RetrCommand()),
-	LIST(new ListCommand()), // TODO: Switch current implementation to nlst
+	LIST(new ListCommand()), // TODO: Currently simply calls NLST
 	NLST(new NlstCommand()),
 	APPE(new AppeCommand()), 
 	RNFR(new RnfrCommand()), 
