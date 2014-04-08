@@ -4,6 +4,6 @@ import com.zephyrr.ftp.main.Session;
 
 public class StatCommand extends Command {
 	public void execute(Session sess, String[] args) {
-		// TODO
+		sess.getControl().sendMessage(getCodeMsg(502));
 	}
 }

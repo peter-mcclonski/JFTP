@@ -63,6 +63,19 @@ public class Session implements Runnable {
 	private synchronized void setData(FTPConnection ftpc) {
 		data = ftpc;
 	}
+	public void enterActive(final String remote, final int port) {
+		final Session obj = this;
+		new Thread(new Runnable() {
+			public void run() {
+				try {
+					Socket sock = new Socket(remote, port);
+					setData(new FTPConnection(sock, obj));
+				} catch(IOException e) {
+					e.printStackTrace();
+				}
+			}
+		}).start();
+	}
 	public ServerSocket enterPassive() {
 		closeDataConnection();
 		final ServerSocket ss;
