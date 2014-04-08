@@ -21,11 +21,11 @@ public enum CommandList {
 	RETR(new RetrCommand()),
 	LIST(new ListCommand()), // TODO: Switch current implementation to nlst
 	NLST(new NlstCommand()),
-	APPE(new AppeCommand()), // TODO
+	APPE(new AppeCommand()), 
 	RNFR(new RnfrCommand()), 
 	RNTO(new RntoCommand()),
-	DELE(new DeleCommand()), // TODO
-	RMD (new RmdCommand()),  // TODO
+	DELE(new DeleCommand()), 
+	RMD (new RmdCommand()),  
 	MKD (new MkdCommand()),  // TODO
 	PWD (new PwdCommand()),
 	ABOR(new AborCommand()), // TODO
