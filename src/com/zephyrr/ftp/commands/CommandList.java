@@ -5,16 +5,16 @@ public enum CommandList {
 	PASS(new PassCommand()),
 	ACCT(new AcctCommand()),
 	CWD (new CwdCommand()),
-	CDUP(new CdupCommand()), // TODO
-	SMNT(new SmntCommand()), // TODO
-	REIN(new ReinCommand()), // TODO
+	CDUP(new CdupCommand()),
+	SMNT(new SmntCommand()), 
+	REIN(new ReinCommand()),
 	QUIT(new QuitCommand()),
 	PORT(new PortCommand()), // TODO
 	PASV(new PasvCommand()),
 	MODE(new ModeCommand()),
 	TYPE(new TypeCommand()),
-	STRU(new StruCommand()), // TODO
-	ALLO(new AlloCommand()), // TODO
+	STRU(new StruCommand()), 
+	ALLO(new AlloCommand()), 
 	REST(new RestCommand()), // TODO
 	STOR(new StorCommand()),
 	STOU(new StouCommand()), // TODO
@@ -32,8 +32,8 @@ public enum CommandList {
 	SYST(new SystCommand()),
 	STAT(new StatCommand()), // TODO
 	HELP(new HelpCommand()), // TODO
-	SITE(new SiteCommand()), // TODO
-	NOOP(new NoopCommand()); // TODO
+	SITE(new SiteCommand()),
+	NOOP(new NoopCommand()); 
 
 	private Command c;
 	CommandList(Command c) {

@@ -1,5 +1,6 @@
 package com.zephyrr.ftp.commands;
 
+import java.io.File;
 import com.zephyrr.ftp.main.Session;
 import com.zephyrr.ftp.io.FileManager;
 

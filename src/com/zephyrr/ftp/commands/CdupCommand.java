@@ -1,5 +1,8 @@
 package com.zephyrr.ftp.commands;
 
+import java.io.File;
+
+import com.zephyrr.ftp.io.FileManager;
 import com.zephyrr.ftp.main.Session;
 
 public class CdupCommand extends Command {
@@ -13,7 +16,9 @@ public class CdupCommand extends Command {
 			return;
 		}
 		File f = FileManager.getFile(sess.getWorkingDirectory());
-		File parent = f.getParent();
-		
+		String parent = f.getParent();
+		parent = FileManager.convertPath(parent);
+		sess.setWorkingDirectory(parent);
+		sess.getControl().sendMessage(getCodeMsg(200));
 	}
 }

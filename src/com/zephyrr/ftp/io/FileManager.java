@@ -87,4 +87,7 @@ public class FileManager {
 	public static File getFile(String abstractPath) {
 		return new File(getTruePath(abstractPath));
 	}
+	public static String convertPath(String path) {
+		return ("/" + path.substring(HOMEDIR.length())).replaceAll("//", "/");
+	}
 }

@@ -38,6 +38,7 @@ public class Session implements Runnable {
 			String[] args = line.replaceFirst(cmdString, "").trim().split(" ");
 			System.out.println(Arrays.toString(args)); 
 			try {
+				// TODO: Block command execution when not logged in.
 				CommandList.valueOf(cmdString.toUpperCase()).getCommand().execute(this, args);
 				last = CommandList.valueOf(cmdString.toUpperCase());
 			} catch (IllegalArgumentException e) {
@@ -48,6 +49,10 @@ public class Session implements Runnable {
 			control.close();
 		if(data != null)
 			data.close();
+	}
+	public void logout() {
+		user = new User();
+		closeDataConnection();
 	}
 	public CommandList getLastCommand() {
 		return last;

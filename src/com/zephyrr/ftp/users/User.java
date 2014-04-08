@@ -1,5 +1,7 @@
 package com.zephyrr.ftp.users;
 
+import java.io.File;
+
 public class User {
 	private String name;
 	protected PermissionSet perms;

@@ -20,6 +20,6 @@ public class PermissionSet {
 		return authed;
 	}
 	public File getHome() {
-		return homeDir();
+		return homeDir;
 	}
 }
