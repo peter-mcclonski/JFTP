@@ -26,7 +26,7 @@ public enum CommandList {
 	RNTO(new RntoCommand()),
 	DELE(new DeleCommand()), 
 	RMD (new RmdCommand()),  
-	MKD (new MkdCommand()),  // TODO
+	MKD (new MkdCommand()),  
 	PWD (new PwdCommand()),
 	ABOR(new AborCommand()), // TODO
 	SYST(new SystCommand()),
