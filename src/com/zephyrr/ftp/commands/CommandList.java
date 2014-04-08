@@ -17,13 +17,13 @@ public enum CommandList {
 	ALLO(new AlloCommand()), 
 	REST(new RestCommand()), // TODO
 	STOR(new StorCommand()),
-	STOU(new StouCommand()), // TODO
+	STOU(new StouCommand()), 
 	RETR(new RetrCommand()),
 	LIST(new ListCommand()), // TODO: Switch current implementation to nlst
 	NLST(new NlstCommand()),
 	APPE(new AppeCommand()), // TODO
-	RNFR(new RnfrCommand()), // TODO 
-	RNTO(new RntoCommand()), // TODO
+	RNFR(new RnfrCommand()), 
+	RNTO(new RntoCommand()),
 	DELE(new DeleCommand()), // TODO
 	RMD (new RmdCommand()),  // TODO
 	MKD (new MkdCommand()),  // TODO

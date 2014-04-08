@@ -14,7 +14,7 @@ public class StorCommand extends Command {
 			sess.getControl().sendMessage(getCodeMsg(425));
 			return;
 		}
-		if(!FileManager.write(sess.getWorkingDirectory() + args[0], new byte[0], sess.getUser())) {
+		if(!FileManager.write(sess.getWorkingDirectory() + args[0], new byte[0], sess.getUser(), false)) {
 			sess.getControl().sendMessage(getCodeMsg(550));
 			sess.getData().close();
 			return;
@@ -29,7 +29,7 @@ public class StorCommand extends Command {
 					break;
 			case IMAGE:	bytes = sess.getData().getMessageBytes();	break;
 		}
-		FileManager.write(sess.getWorkingDirectory() + args[0], bytes, sess.getUser());
+		FileManager.write(sess.getWorkingDirectory() + args[0], bytes, sess.getUser(), false);
 		FileManager.closeWriter(sess.getWorkingDirectory() + args[0], sess.getUser());
 		sess.getControl().sendMessage(getCodeMsg(226));
 		sess.getData().close();
