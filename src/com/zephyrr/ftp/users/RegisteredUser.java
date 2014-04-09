@@ -6,6 +6,7 @@ public class RegisteredUser extends User {
 	public RegisteredUser(String name, String pass, String[] perms) {
 		setName(name);
 		this.pass = pass;
+		System.out.println(name + ": " + pass);
 		setPermissions(new PermissionSet(perms));
 	}
 

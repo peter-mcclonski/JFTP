@@ -1,6 +1,8 @@
 package com.zephyrr.ftp.commands;
 
 import com.zephyrr.ftp.main.Session;
+import com.zephyrr.ftp.io.FileManager;
+import com.zephyrr.ftp.etc.Config;
 
 public class PassCommand extends Command {
 	public void execute(Session sess, String[] args) {
@@ -13,6 +15,7 @@ public class PassCommand extends Command {
 			return;
 		}
 		if (sess.getUser().attemptAuthorization(args[0])) {
+			sess.setWorkingDirectory(sess.getUser().getHome());
 			sess.getControl().sendMessage(getCodeMsg(230));
 		} else {
 			sess.getControl().sendMessage(getCodeMsg(530));

@@ -33,12 +33,8 @@ public class RmdCommand extends Command {
 		for (File c : children) {
 			if (c.isDirectory())
 				recursiveDelete(c);
-			else if (!FileManager.isLocked(FileManager.convertPath(c
-					.getAbsolutePath()))) {
-				f.delete();
-			}
+			else c.delete();
 		}
-		return !FileManager.isLocked(FileManager.convertPath(f
-				.getAbsolutePath())) && f.delete();
+		return f.delete();
 	}
 }

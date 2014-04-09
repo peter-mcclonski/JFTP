@@ -11,13 +11,14 @@ public class CdupCommand extends Command {
 			sess.getControl().sendMessage(getCodeMsg(501));
 			return;
 		}
-		if (sess.getWorkingDirectory().equals("/")) {
+		if (sess.getWorkingDirectory().equals(sess.getUser().getHome())) {
 			sess.getControl().sendMessage(getCodeMsg(550));
 			return;
 		}
 		File f = FileManager.getFile(sess.getWorkingDirectory());
 		String parent = f.getParent();
 		parent = FileManager.convertPath(parent);
+		System.out.println(parent);
 		sess.setWorkingDirectory(parent);
 		sess.getControl().sendMessage(getCodeMsg(200));
 	}

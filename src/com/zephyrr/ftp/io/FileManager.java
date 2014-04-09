@@ -126,6 +126,8 @@ public class FileManager {
 	}
 
 	public static String convertPath(String path) {
-		return ("/" + path.substring(HOMEDIR.length())).replaceAll("//", "/");
+		System.out.println("HOMEDIR: " + HOMEDIR);
+		System.out.println("Path: " + path);
+		return ("/" + (path + "//").substring(HOMEDIR.length()) + "/").replaceAll("//", "/");
 	}
 }

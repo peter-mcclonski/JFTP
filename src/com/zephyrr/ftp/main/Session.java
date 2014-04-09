@@ -144,7 +144,8 @@ public class Session implements Runnable {
 	}
 
 	public void setWorkingDirectory(String s) {
-		dir = s;
+		dir = (s + "/").replaceAll("//", "/").replaceAll("//", "/");
+		System.out.println("Directory: " + dir);
 	}
 
 	public TransmissionType getType() {

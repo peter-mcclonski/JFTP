@@ -25,7 +25,8 @@ public class MkdCommand extends Command {
 				.getFile(sess.getWorkingDirectory() + "/" + args[0]);
 		f.mkdirs();
 		sess.getControl().sendMessage(
-				getCodeMsg(257).replaceFirst("$PATHNAME",
-						FileManager.convertPath(f.getAbsolutePath())));
+				getCodeMsg(257).replace("$PATHNAME",
+					args[0]));
+					
 	}
 }

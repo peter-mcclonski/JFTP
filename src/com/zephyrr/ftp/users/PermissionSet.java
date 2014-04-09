@@ -5,11 +5,13 @@ import java.io.File;
 import com.zephyrr.ftp.io.FileManager;
 
 public class PermissionSet {
+	private String home;
 	private File homeDir;
 	private int perms;
 	private boolean authed;
 
 	public PermissionSet(String[] args) {
+		home = args[1];
 		homeDir = FileManager.getFile(args[1]);
 		if (!homeDir.exists())
 			homeDir.mkdirs();
@@ -27,5 +29,9 @@ public class PermissionSet {
 
 	public File getHome() {
 		return homeDir;
+	}
+	
+	public String getHomeString() {
+		return home;
 	}
 }

@@ -47,6 +47,10 @@ public class User {
 		return perms.getHome();
 	}
 
+	public String getHome() {
+		return perms.getHomeString();
+	}
+
 	public boolean equals(Object other) {
 		return other instanceof User
 				&& ((User) other).getName().equals(getName());
