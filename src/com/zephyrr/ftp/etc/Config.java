@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class Config {
 	private static HashMap<String, String> data;
+	private static String CONFIGFILE = "config.dat";
 	static {
 		data = new HashMap<String, String>();
 		readConfig();
@@ -14,7 +15,7 @@ public class Config {
 
 	private static void readConfig() {
 		try {
-			Scanner s = new Scanner(new File("config.dat"));
+			Scanner s = new Scanner(new File(CONFIGFILE));
 			while (s.hasNext()) {
 				String line = s.nextLine();
 				if (line.startsWith("//") || !line.contains("="))

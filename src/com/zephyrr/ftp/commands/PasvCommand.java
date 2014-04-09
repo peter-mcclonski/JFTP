@@ -7,14 +7,14 @@ import com.zephyrr.ftp.main.Session;
 
 public class PasvCommand extends Command {
 	public void execute(Session sess, String[] args) {
-		System.out.println(":" + args[0] + ":");
 		if (args.length != 1) {
 			sess.getControl().sendMessage(getCodeMsg(501));
 			return;
 		}
 		ServerSocket ss = sess.enterPassive();
 		String msg = getCodeMsg(227);
-		String[] ip = Config.get("PASSIVE_IP").split(".");
+		String[] ip = Config.get("PASSIVE_IP").split("\\.");
+		System.out.println(ip.length);
 		for (int i = 0; i < ip.length; i++)
 			msg = msg.replace("h" + (i + 1), ip[i]);
 		msg = msg.replace("p1", "" + ss.getLocalPort() / 256);

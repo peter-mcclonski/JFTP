@@ -14,6 +14,7 @@ public class PermissionSet {
 		if (!homeDir.exists())
 			homeDir.mkdirs();
 		perms = Integer.parseInt(args[0]);
+		authed = true;
 	}
 
 	public boolean hasPermission(Permission p) {

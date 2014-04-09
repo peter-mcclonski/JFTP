@@ -12,7 +12,7 @@ public class User {
 	}
 
 	public boolean isAuthorized() {
-		return perms.isAuthed();
+		return perms != null && perms.isAuthed();
 	}
 
 	public boolean attemptAuthorization(String pass) {

@@ -1,0 +1,5 @@
+PORT=21
+MAX_CLIENTS=50
+USERFILE=accounts.dat
+PASSIVE_IP=127.0.0.1
+HOMEDIR=/home/Phoenix/.ftp/pub/
