@@ -11,10 +11,10 @@ public class StouCommand extends Command {
 		String fname;
 		do {
 			fname = "";
-			for(int i = 0; i < 20; i++)
-				fname += (char)(Math.random() * 10);
+			for (int i = 0; i < 20; i++)
+				fname += (char) (Math.random() * 10);
 			f = FileManager.getFile(sess.getWorkingDirectory() + fname);
-		} while(f.exists());
-		CommandList.STOR.getCommand().execute(sess, new String[] {fname});
+		} while (f.exists());
+		CommandList.STOR.getCommand().execute(sess, new String[] { fname });
 	}
 }

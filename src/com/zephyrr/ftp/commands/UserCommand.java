@@ -3,9 +3,8 @@ package com.zephyrr.ftp.commands;
 import com.zephyrr.ftp.main.Session;
 
 public class UserCommand extends Command {
-	public void execute(Session sess,
-			    String[] args) {
-		if(args.length != 1) {
+	public void execute(Session sess, String[] args) {
+		if (args.length != 1) {
 			sess.getControl().sendMessage(getCodeMsg(500));
 			return;
 		}

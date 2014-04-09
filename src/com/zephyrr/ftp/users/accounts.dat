@@ -1,0 +1,11 @@
+// User format:
+// user pass perms home
+// perms: add the associated number to give the associated permission
+//   Enabled 	- 1
+//   ReadFile	- 2
+//   WriteFile	- 4
+//   DeleteFile	- 8
+//   ReadDir	- 16
+//   MakeDir	- 32
+//   DeleteDir	- 64
+admin admin 127 /

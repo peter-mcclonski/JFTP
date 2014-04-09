@@ -1,51 +1,40 @@
 package com.zephyrr.ftp.main;
 
+import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.io.IOException;
-import java.io.File;
+import java.util.ArrayList;
+
+import com.zephyrr.ftp.etc.Config;
 
 public class FTP {
-	private File pubPath;
-	private int port;
 	private ServerSocket serverSock;
-	private Session sess;
-	public FTP(String pub) {
-		pubPath = new File(pub);
-		if(!pubPath.exists())
-			pubPath.mkdirs();
-		port = 21;
-	}
-	public FTP(String pub, int port) {
-		this(pub);
-		this.port = port;
+	private ArrayList<Session> sessions;
+
+	public FTP() {
+		sessions = new ArrayList<Session>();
 	}
 
 	public void startServer() {
 		try {
-			serverSock = new ServerSocket(port);
-			while(true) {
-				sess = new Session(serverSock.accept());
+			serverSock = new ServerSocket(Integer.parseInt(Config.get("PORT")));
+			while (true) {
+				Socket s = serverSock.accept();
+				if (sessions.size() < Integer.parseInt(Config
+						.get("MAX_CLIENTS")))
+					sessions.add(new Session(s, this));
 			}
-//			serverSock.close();
-		} catch(IOException e) {
+			// serverSock.close();
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 
+	public void removeSession(Session s) {
+		sessions.remove(s);
+	}
+
 	public static void main(String[] args) {
-		FTP server;
-		if(args.length >= 1) {
-			if(args.length >= 2) {
-				try {
-					server = new FTP(args[0], Integer.parseInt(args[1]));
-				} catch(NumberFormatException e) {
-					server = new FTP(args[0]);
-				}
-			} else server = new FTP(args[0]);
-		} else {
-			server = new FTP(new File("").getAbsolutePath());
-		}
-		server.startServer();
+		new FTP().startServer();
 	}
 }
