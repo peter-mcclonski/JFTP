@@ -4,11 +4,13 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Arrays;
+import java.util.Date;
 
 import com.zephyrr.ftp.commands.CommandList;
 import com.zephyrr.ftp.net.FTPConnection;
 import com.zephyrr.ftp.net.TransmissionType;
 import com.zephyrr.ftp.users.User;
+import com.zephyrr.ftp.etc.Logger;
 
 public class Session implements Runnable {
 	private volatile FTPConnection control, data;
@@ -38,6 +40,7 @@ public class Session implements Runnable {
 		control.sendMessage("220 Service ready for new user.");
 		String line;
 		while (active && (line = control.getMessage()) != null) {
+			Logger.getInstance().enqueue(new Date() + "\t\t" + user.getName() + "\t\t" + line + "\n");
 			line = line.trim();
 			System.out.println(line);
 			String cmdString = line.split(" ")[0];
