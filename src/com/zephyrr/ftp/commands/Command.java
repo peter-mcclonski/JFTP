@@ -2,37 +2,53 @@ package com.zephyrr.ftp.commands;
 
 import com.zephyrr.ftp.main.Session;
 
+/*
+ * Every command executor extends this class.  It provides easy access to
+ * all implemented reply codes, with the requirement of implementing the
+ * execute(...) method.
+ *
+ * @author Peter Jablonski
+ */
+
 public abstract class Command {
+	// Not implemented
 	private String code110() {
 		// TODO
 		return "";
 	}
-
+	
+	// Not implemented
 	private String code120() {
 		// TODO
 		return "";
 	}
 
+	// Not implemented
 	private String code211() {
 		// TODO
 		return "";
 	}
 
+	// Not implemented
 	private String code212() {
 		// TODO
 		return "";
 	}
 
+	// Not implemented
 	private String code213() {
 		// TODO
 		return "";
 	}
 
+	// Not implemented
 	private String code214() {
 		// TODO
 		return "";
 	}
 
+	// Lookup function for getting the message associated with a
+	// given reply code number.
 	public String getCodeMsg(int code) {
 		switch (code) {
 		case 110:
@@ -117,5 +133,6 @@ public abstract class Command {
 		return "";
 	}
 
+	// The method responsible for executing a given command.
 	public abstract void execute(Session sess, String[] args);
 }

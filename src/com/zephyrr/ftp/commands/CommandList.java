@@ -1,5 +1,11 @@
 package com.zephyrr.ftp.commands;
 
+/*
+ * Lookup system for accessing the command executor for a given
+ * command.  An instance of each command is initialized when the
+ * server starts up.
+ */
+
 public enum CommandList {
 	USER(new UserCommand()), 
 	PASS(new PassCommand()), 
@@ -9,13 +15,13 @@ public enum CommandList {
 	SMNT(new SmntCommand()), 
 	REIN(new ReinCommand()), 
 	QUIT(new QuitCommand()), 
-	PORT(new PortCommand()), // TODO
+	PORT(new PortCommand()),
 	PASV(new PasvCommand()), 
 	MODE(new ModeCommand()), 
 	TYPE(new TypeCommand()), 
 	STRU(new StruCommand()), 
 	ALLO(new AlloCommand()), 
-	REST(new RestCommand()), // TODO
+	REST(new RestCommand()), // TODO: Not implemented
 	STOR(new StorCommand()), 
 	STOU(new StouCommand()), 
 	RETR(new RetrCommand()), 
@@ -28,9 +34,9 @@ public enum CommandList {
 	RMD(new RmdCommand()), 
 	MKD(new MkdCommand()), 
 	PWD(new PwdCommand()), 
-	ABOR(new AborCommand()), // TODO
+	ABOR(new AborCommand()), // TODO: Not implemented
 	SYST(new SystCommand()), 
-	STAT(new StatCommand()), // TODO
+	STAT(new StatCommand()), // TODO: Not implemented
 	HELP(new HelpCommand()), // TODO
 	SITE(new SiteCommand()), 
 	NOOP(new NoopCommand());
@@ -40,7 +46,7 @@ public enum CommandList {
 	CommandList(Command c) {
 		this.c = c;
 	}
-
+	// Get the executor instance associated with the given command
 	public Command getCommand() {
 		return c;
 	}
